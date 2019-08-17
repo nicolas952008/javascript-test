@@ -1,0 +1,51 @@
+.contenedor-principal{
+    padding: 100px;
+    background-color: gold;
+}
+
+.parrafos{
+    padding: 10px 0px 10px 0px;
+    background-color: aqua;
+}
+
+.row.cust-row{
+    min-height: 50px;
+    background-color: blueviolet;
+    /*animation: rotation 4s infinite linear;*/
+}
+.btn{
+    min-width: 200px;
+    margin:5px;
+}
+#btn1{
+    background-color: red;
+    border-color: red;
+    color: black;
+    font-size: 40px;
+}
+
+.card{
+    min-height: 100%;
+}
+.card:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#text2{
+    font-size: 45px;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+@media only screen and (max-width: 576px){
+    #text2{
+        font-size: 15px;
+    }
+}
